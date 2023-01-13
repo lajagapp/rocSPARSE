@@ -2,6 +2,11 @@
 
 Full documentation for rocSPARSE is available at [rocsparse.readthedocs.io](https://rocsparse.readthedocs.io/en/latest/).
 
+## rocSPARSE 2.6.0
+### Improved
+- Optimization to doti routine
+- Fixed a bug in csrsm and bsrsm
+
 ## rocSPARSE 2.5.1 for ROCm 5.5.0
 ### Added
 - Added bsrgemm and spgemm for BSR format
