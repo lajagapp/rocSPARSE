@@ -4090,6 +4090,9 @@ rocsparse_status rocsparse_zcsrsv_analysis(rocsparse_handle                handl
 *  \note
 *  This function is blocking with respect to the host.
 *
+*  \note
+*  This routine does not support execution in a hipGraph context.
+*
 *  @param[in]
 *  handle      handle to the rocsparse library context queue.
 *  @param[in]
@@ -13101,6 +13104,9 @@ rocsparse_status rocsparse_csritilu0_preprocess(rocsparse_handle     handle,
 *  \note
 *  This function is blocking with respect to the host.
 *
+*  \note
+*  This routine does not support execution in a hipGraph context.
+*
 *  @param[in]
 *  handle      handle to the rocsparse library context queue.
 *  @param[in]
@@ -16135,6 +16141,9 @@ rocsparse_status rocsparse_zgebsr2gebsc(rocsparse_handle                handle,
 *  \note
 *  This function is blocking with respect to the host.
 *
+*  \note
+*  This routine does not support execution in a hipGraph context.
+*
 *  @param[in]
 *  handle      handle to the rocsparse library context queue.
 *  @param[in]
@@ -18241,6 +18250,9 @@ rocsparse_status rocsparse_hyb2csr_buffer_size(rocsparse_handle          handle,
 *
 *  \note
 *  This function is blocking with respect to the host.
+*
+*  \note
+*  This routine does not support execution in a hipGraph context.
 *
 *  @param[in]
 *  handle          handle to the rocsparse library context queue.
