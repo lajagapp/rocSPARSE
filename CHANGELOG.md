@@ -6,6 +6,8 @@ Full documentation for rocSPARSE is available at [rocsparse.readthedocs.io](http
 ### Improved
 - Optimization to doti routine
 - Fixed a bug in csrsm and bsrsm
+### Known Issues
+- In csritlu0, the algorithm rocsparse_itilu0_alg_sync_split_fusion has some accuracy issues to investigate with XNACK enabled. The fallback is rocsparse_itilu0_alg_sync_split.
 
 ## rocSPARSE 2.5.1 for ROCm 5.5.0
 ### Added
